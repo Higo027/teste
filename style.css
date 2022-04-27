@@ -94,7 +94,7 @@ a:hover {
   #bot {
     display: block;
     width: 90px;
-    border-top: 6px solid #cfb724;
+    border-top: 4px solid #cfb724;
   }
   
   #bot::after, #bot::before {
@@ -102,7 +102,7 @@ a:hover {
     display: block;
     width: 90px;
     border-top: 6px solid #cfb724;
-    margin-top: 10px;
+    margin-top: 15px;
     transition: .5s;
     position: relative;
   }
