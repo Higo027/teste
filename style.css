@@ -48,7 +48,7 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 999px) {
   #img {
     width: 85px;
     height: auto;
