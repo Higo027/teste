@@ -94,14 +94,16 @@ a:hover {
   
   #bot {
     display: block;
-    width: 50px;
+    width: 65px;
+    heidth: 2.5px;
     border-top: 15px solid #cfb724;
   }
   
   #bot::after, #bot::before {
     content: '';
     display: block;
-    width: 50px;
+    width: 65px;
+    heidth; 2.5;
     border-top: 15px solid #cfb724;
     margin-top: 15px;
     transition: .5s;
