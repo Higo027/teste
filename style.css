@@ -69,7 +69,7 @@ a:hover {
     display: block;
     position: absolute;
     width: 100%;
-    top: 5.5vh;
+    top: 5.3vh;
     right: 0px;
     height: 0px;
     background: #000;
@@ -94,16 +94,16 @@ a:hover {
   
   #bot {
     display: block;
-    width: 75px;
-    border-top: 5px solid #cfb724;
+    width: 50px;
+    border-top: 15px solid #cfb724;
   }
   
   #bot::after, #bot::before {
     content: '';
     display: block;
-    width: 75px;
-    border-top: 5px solid #cfb724;
-    margin-top: 7px;
+    width: 50px;
+    border-top: 15px solid #cfb724;
+    margin-top: 15px;
     transition: .5s;
     position: relative;
   }
