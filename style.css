@@ -19,7 +19,7 @@ a:hover {
 
 #header {
   box-sizing: border-box;
-  height: 5vh;
+  height: 7vh;
   padding: 1rem;
   display: flex;
   align-items: center;
