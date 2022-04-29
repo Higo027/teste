@@ -120,7 +120,7 @@ a:hover {
   
   #nav.active #bot::after {
     transform: rotate(-135deg);
-    top: -24px;
+    top: -23px;
   }
   
   .logo {
