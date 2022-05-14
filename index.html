@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>4King</title>
     <link rel="stylesheet" href="header.css">
+     <link rel="stylesheet" href="slider.css">
   </head>
   <body>
     <header id="header">
@@ -22,9 +23,48 @@
         </ul>
       </nav>
     </header>
-    <main>
-      
-    </main>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <!---Radio buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--Fim Radio Buttons-->
+
+            <!--slide images-->
+            <div class="slide first">
+                <img src="1.jpeg" alt="imagem 1" />
+            </div>
+            <div class="slide">
+                <img src="2.jpg" alt="imagem 2" />
+            </div>
+            <div class="slide">
+                <img src="3.jpg" alt="imagem 3" />
+            </div>
+            <div class="slide">
+                <img src="4.jpg" alt="imagem 4" />
+            </div>
+            <!-- Fim slide images-->
+
+            <!--Navigation auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--Fim Navigation auto-->
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <script src="slider.js"></script>
     <script type="text/javascript" src="header.js"></script>
   </body>
 </html>
