@@ -1,6 +1,6 @@
 .slider{
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
     height: 400px;
     overflow: hidden;
 }
@@ -22,12 +22,13 @@
 }
 
 .slide img {
-    width: 800px;
+    width: 100%;
+    height: 450px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 100%;
     margin-top: -40px;
     display: flex;
     justify-content: center;
